@@ -1,7 +1,7 @@
 import { TodoApp } from "../components/todo/AppTodo";
 import { Topics } from "../components/topics/index";
-import { Home } from "../components/home";
-import { About } from "../components/about";
+import { Home } from "../components/home/index";
+import { About } from "../components/about/index";
 
 export const routes = [{
         id: 0,
