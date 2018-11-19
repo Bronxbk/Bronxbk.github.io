@@ -45,12 +45,4 @@ export const routes = [{
     label: 'Todo List',
     exact: false,
     component: TodoApp
-},
-{
-    id: 4,
-    href: '/dashboard',
-    label: 'Dashboard',
-    exact: false,
-    component: SbAdmin
-}
-]
+}];

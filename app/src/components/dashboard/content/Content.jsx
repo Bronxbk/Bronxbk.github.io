@@ -100,7 +100,7 @@ export class Content extends Component {
                         Data Table Example</div>
                     <div className="card-body">
                         <div className="table-responsive">
-                            <table className="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                            <table className="table table-bordered">
                                 <thead>
                                     <tr>
                                         <th>Name</th>
