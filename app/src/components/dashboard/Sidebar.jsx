@@ -7,7 +7,7 @@ export class Sidebar extends Component {
     render() {
         return (
             <ul className="sidebar navbar-nav">
-                {this.props.menu && this.props.menu.map((item) =>
+                {this.props.menu && this.props.menu.filter(item => !item.hide).map((item) =>
                     <li key={item.id} className='nav-item' activeClassName='active'>
                         <NavLink exact={item.exact} className='nav-link' to={item.href}>
                             <i className="fas fa-fw fa-tachometer-alt"></i>

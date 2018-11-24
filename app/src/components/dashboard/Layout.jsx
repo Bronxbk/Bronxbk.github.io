@@ -9,7 +9,7 @@ import { Breadcrumb } from './Breadcrumb';
 
 
 
-export class SbAdmin extends Component {
+export class Layout extends Component {
 
     render() {
         return (
