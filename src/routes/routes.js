@@ -2,9 +2,8 @@ import { TodoApp } from "../components/todo/AppTodo";
 import { Topics } from "../components/topics/index";
 import { Home } from "../components/home/index";
 import { About } from "../components/about/index";
-import { ImplicitCallback } from '@okta/okta-react';
-import Messages from '../auth/Messages';
 import Profile from '../auth/Profile';
+import { ImplicitCallback } from '@okta/okta-react';
 
 export const routes = [{
     id: 0,
@@ -60,13 +59,6 @@ export const routes = [{
 },
 {
     id: 5,
-    href: '/messages',
-    label: 'Messages',
-    exact: false,
-    component: Messages
-},
-{
-    id: 6,
     href: '/profile',
     label: 'Profile',
     exact: false,
